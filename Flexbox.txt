@@ -1,0 +1,23 @@
+Flexbox
+
+flex-direction property declared in the parent container.
+              : have following property:
+		row, row-reverse, column, colum-reverse.
+**flex-flow**: used to declared both *flex-direction* and *flex-wrap* on the same line. (Declared on flex container).
+Example: flex-flow: column wrap;
+
+Sum Up:
+1. display: flex; changes an element to a block-level containers with flex items inside of it.
+2. display: inline-flex; allows multiple flex containers to appear inline with each other.
+3. justify-content is used to space items along the main axis (horizontally) (properties: flex-start, flex-end, space-between, space-around, center)
+4. align-items is used to space items along the cross axis. (vertically) (properties: center)
+5. flex-grow is used to specify how much space (and in what proportions) flex items absor along the main axis.
+6. flex-shrink is used to specify how much flex items shrink and in what proportions along the main axis.
+7. flex-basis is used to specify the initial size of an element styled with *flex-grow* and/or *flex-shrink*
+8. flex is a short hand syntax in the order. flex: flex-grow flex-shrink flex-basis
+9. flex-wrap specifies that elements should shift along the cross axis if the flex container is not large enough.
+10. align-content: is used to space row along the cross axis.
+11. flex-direction: is used to specify the main and cross axis.
+12. flex-flow is a short hand syntax for flex-direction and flex-wrap.
+
+Note: align-items property is used to align items within a single row, whereas the align-content property is used to align multiple rows.
